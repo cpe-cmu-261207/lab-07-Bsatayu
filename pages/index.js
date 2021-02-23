@@ -3,18 +3,12 @@ import axios from 'axios'
 const baseURL = 'https://dummyapi.io/data/api'
 const Home = () => {
   return (
-    <>
-      <h1>This is home page</h1>
-      <link href="post">
-        <button>goto post page</button>
-      </link>
-      <link href="GPA Cal">
-        <button>GPA Calculator</button>
-      </link>
-      <link href="Home">
-        <button>Home</button>
-      </link>
-      </>
+    <div align='center'>
+    <h1>This is home page</h1>
+    <a href='/Post' style={{padding:20}}>Post</a>
+    <a href='/Calcuate GPA' style={{padding:20}}>GPA Calculator</a>
+    <a href='/Profile' style={{padding:20}}>My Profile</a>
+  </div>
   )
 }
 

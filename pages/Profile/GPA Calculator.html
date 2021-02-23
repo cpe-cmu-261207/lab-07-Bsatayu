@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            a{
+                color: rgb(0, 38, 255);
+            }
+            a:hover{
+                color: rgb(255, 60, 0);
+            }
+            .text{
+                font-size: 21px;
+            }
+            .t1{
+                border: 1px;
+                background-color: rgba(20, 218, 46, 0.76);
+                font-size: 20px;
+                width: 65%;
+                text-align:center
+            }
+            .t2{
+                border:1px; 
+                background-color: rgb(252, 236, 146);
+                font-size: 20px;
+                width: 65%;
+                text-align:center
+            }
+            th{
+                text-align:center;
+                width: 35%;
+            }
+        </style>
+        <script src = "javascript.js"></script>
+    </head>
+    <body>
+        <h1>
+            <a href="file:///C:/Users/ASUS/Documents/LabCpe/lab-02-Bsatayu/Web.html">Home</a> 
+        </h1>
+        <h1>
+            <a href="file:///C:/Users/ASUS/Documents/LabCpe/lab-02-Bsatayu/Contact.html">Contact</a> 
+        </h1>
+        <h1>
+            <a href="file:///C:/Users/ASUS/Documents/LabCpe/lab-02-Bsatayu/Gallery.html">Gallery</a> 
+        </h1>
+        </h2>
+        <table style="width: 100%"  border :1px solid black; >
+        <table style="width: 100%"  border :1px solid black; >
+ 
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>GPA Calculate</title>
+                <script src="gpa.js"></script>
+                <link rel="stylesheet" href="gpa.css">
+            </head>
+            <body>
+                <h3 align="center" >GPA</h3>
+                <form id="addSub">
+                    <p align ="center">
+                        ชื่อวิชา <input type="text" id="subject">
+                        รหัสวิชา <input type="text" id="code">
+                        ภาคเรียน <input type="text" id="term">
+                        หน่วยกิต <input type="text" id="unit">
+                        เกรดที่ได้รับ <input type="text" id="grade">
+                    </p>
+                    <p align ="center">
+                        <button id="sumbit" type = "button" onclick="newSub()">submit</button>
+                        <button id="gpaAll" type ="button" onclick="calAll()">เกรดเฉลี่ยรวม</button>
+                        <button id="gpaMajor" type ="button" onclick="calMajor()">เกรดเฉลี่ยวิชาเมเจอร์</button>
+                    </p>
+                </form>
+                <ul id="allSub"></ul>
+            </body>
+            </html>
+          
